@@ -1,0 +1,49 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: monts;
+}
+
+.form{
+    /* border: 1px solid red; */
+
+    box-shadow: 1px 2px 4px rgba(0, 0, 0, 0.3);
+    width: 400px;
+    background-color: #fff;
+    padding: 10px;
+    margin: 50px;
+}
+
+.fields{
+    margin-bottom: 8px;
+}
+
+.fields label{
+    display: block;
+    margin-bottom: 5px;
+    font-family: montsbold;
+}
+
+.fields .input{
+    padding: 10px;
+    display: block;
+    width: 100%;
+    outline: none;
+}
+
+.form_btn{
+    padding: 10px;
+    border: none;
+    display: block;
+    width: 100%;
+    color: #fff ;
+    background-color:  rgb(0, 0, 0);
+    font-size: 16px;
+    cursor: pointer;
+}
+
+
+.fields .last{
+    margin: 0;
+}
