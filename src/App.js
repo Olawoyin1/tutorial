@@ -1,7 +1,9 @@
 // import logo from './logo.svg';
 import './App.css';
-import Json from './components3/array';
-import Card from './components3/card';
+import User from './components4/user';
+import data from './components4/data';
+// import Json from './components3/array';
+// import Card from './components3/card';
 // import Header from './components/header';
 // import Footer from './components/footer';
 // import Info from './components2/info';
@@ -11,17 +13,23 @@ import Card from './components3/card';
 
 
 function App() {
-  const result = Json.map(data=>{
-    console.log(data)
-    return <Card 
-      name={data.name} 
-      about={data.about}
+  const Users = data.map(use=>{
+    return <User  
+      name={use.name}
+      image={use.image}
+      stack={use.stack}
+      course={use.course}
+      mail={use.mail}
+      age={use.age}
+      phone={use.phone}
+      
     />
-  })
-  
+  }) 
+  // console.log(data)
+ 
   return (
-    <div>
-      {result}
+    <div className='flex' >
+      {Users}
     </div>
   );
 }
