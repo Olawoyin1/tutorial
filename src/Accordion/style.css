@@ -1,0 +1,31 @@
+
+
+.accordion{
+    background-color: #fff;
+    width: 700px;
+    margin: 2rem auto;
+    /* background-color: red; */
+    margin-bottom: 1rem;
+    /* border: 3px solid green; */
+    
+}
+
+.padd{
+    display: flex;
+    padding: 1rem;
+    justify-content: space-between;
+}
+
+.ac_btn{
+    border: none;
+    cursor: pointer;
+    width: 35px;
+    height: 35px;
+    font-size: 17px;
+    border-radius: 50%;
+}
+
+.flex{
+    align-items: center;
+    border-bottom:  1px solid grey;
+}

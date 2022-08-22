@@ -1,0 +1,35 @@
+.tours{
+    border:  1px solid red;
+
+}
+
+.tour{
+    border:  2px solid green;
+    width: 500px;
+    margin: 0 auto;
+}
+
+.tour_content{
+    padding: 1rem;
+}
+
+.tour_content p{
+    font-size: 14px;
+}
+
+.tour_image{
+    height: 250px;
+    border: 1px solid red;
+}
+
+.flex{
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.btn3{
+
+    margin: 10px auto 0;
+    display: flex;
+    justify-content: center;
+}

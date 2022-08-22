@@ -1,14 +1,22 @@
 // import logo from './logo.svg';
 import React from 'react';
+import Accord from './Accordion/accord';
 import './App.css';
 import Main from './birthdays/main';
 import lists from './components10/lists';
 import Messages from './components10/message';
 import New from './components10/new';
 import Form from './components11/form';
+import Counter from './components5/counter';
 import Header from './components7/header';
 import Body from './components8/body';
+import Box from './components9/box';
 import Show from './components9/display';
+import Games from './Games/games';
+// import MainRoute from './pages/main';
+import Reviews from './Reviews/reviews';
+import Tours from './Tours/mainT';
+// import Newest from './useReducer/new';
 // import List from './components6/list';
 // import Test from './components6/test';
 // import Counter from './components5/counter';
@@ -52,7 +60,7 @@ function App() {
  
   return (
     <div>
-      <Main />
+      <Form />
     </div>
   );
 }
